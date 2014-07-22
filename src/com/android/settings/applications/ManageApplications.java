@@ -263,6 +263,7 @@ public class ManageApplications extends Fragment implements
                 lv.setSaveEnabled(true);
                 lv.setItemsCanFocus(true);
                 lv.setTextFilterEnabled(true);
+                lv.setFastScrollEnabled(true);
                 mListView = lv;
                 mApplications = new ApplicationsAdapter(mApplicationsState, this, mFilter);
                 mListView.setAdapter(mApplications);
