@@ -588,9 +588,19 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="reset_user_preferences_summary">Ripristina preferenze interfaccia ai valori predefiniti</string>
     <string name="reset_user_preferences_dialog">Sei sicuro di voler ripristinare le preferenze?</string>
     
-    <!-- Network speed -->
-    <string name="show_network_speed">Indicatore velocità di rete</string>
-    <string name="show_network_speed_summary">Mostra velocità di rete nella barra di stato</string>
-    <string name="show_network_speed_bits">Mostra velocità come bit per secondo</string>
-    <string name="show_network_speed_bytes">Mostra velocità come bytes per secondo</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Traffico di rete</string>
+    <string name="show_network_traffic_state">Traffico nella barra di stato</string>
+    <string name="show_network_traffic_unit">Unità</string>
+    <string name="show_network_traffic_frequency">Intervallo aggiornamento</string>
+    <string name="show_network_traffic_disable">Disattivato</string>
+    <string name="show_network_traffic_up">In uscita</string>
+    <string name="show_network_traffic_down">In entrata</string>
+    <string name="show_network_traffic_all">In uscita e in entrata</string>
+    <string name="show_network_traffic_bit">Bits per secondo</string>
+    <string name="show_network_traffic_byte">Bytes per secondo</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
 </resources>
