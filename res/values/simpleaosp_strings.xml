@@ -7,8 +7,20 @@
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
-    <!-- Navigation bar settings -->
-    <string name="navigation_bar">Navigation Bar</string>
+    <!-- Superuser -->
+    <!-- Setting checkbox title for root access -->
+    <string name="root_access">Root access</string>
+    <string name="root_access_warning_title">Allow root access?</string>
+    <string name="root_access_warning_message">Allowing applications to request root access is very dangerous and could compromise the security of your system!</string>
+    <string name="root_access_none">Disabled</string>
+    <string name="root_access_apps">Apps only</string>
+    <string name="root_access_adb">ADB only</string>
+    <string name="root_access_all">Apps and ADB</string>
+
+    <!-- Navigation bar -->
+    <string name="navigation_bar_title">Navigation bar</string>
+    <string name="navigation_bar_summary">Enable or disable the navigation bar</string>
+    <string name="navigation_bar_height">Height:</string>
     <string name="navigation_ring_title">Quick launch shortcuts</string>
     
     <!-- Navigation ring shortcuts -->
@@ -47,14 +59,6 @@
     <!-- Description of the right direction in which one can to slide the handle in the Slide unlock    screen. [CHAR LIMIT=NONE] -->
     <string name="description_direction_right">Slide right for <xliff:g id="target_description"         example="Unlock">%s</xliff:g>.</string>
 
-    <!-- Reset Profiles -->
-    <string name="profile_reset_title">Reset</string>
-    <string name="profile_reset_message">Delete all user created profiles and app groups and restore them to default?</string>
-
-    <!-- Title for application group setting screen -->
-    <string name="profile_applist_title">Apps</string>
-    <!-- UI debug setting: title for app picker dialog [CHAR LIMIT=50] -->
-
     <!-- String for IconPicker -->
     <string name="icon_picker_title">Choose icon source</string>
     <string name="icon_picker_system_icons_title">System icons</string>
@@ -71,6 +75,10 @@
     <string name="lockscreen_target_empty">Empty</string>
     <string name="lockscreen_target_edit_title">Edit shortcut and icon</string>
     <string name="lockscreen_target_edit_msg">Select or change the desired application or activity and the associated icon</string>
+
+    <!-- Title for application group setting screen -->
+    <string name="profile_applist_title">Apps</string>
+    <!-- UI debug setting: title for app picker dialog [CHAR LIMIT=50] -->
 
     <!-- Lock screen shortcuts -->
     <string name="picker_activities">Activities</string>
@@ -101,6 +109,29 @@
     <string name="icon_picker_sms">Messaging</string>
     <string name="icon_picker_twitter">Twitter</string>
 
+    <!-- Lockscreen background -->
+    <string name="lock_screen_title">Lock screen</string>
+    <string name="lockscreen_background">Background</string>
+    <string name="lockscreen_background_style_title">Lock screen background</string>
+    <string name="background_default">Default background</string>
+    <string name="background_wallpaper">Custom wallpaper</string>
+    <string name="background_result_successful">Background changed</string>
+    <string name="background_result_not_successful">Background not changed</string>
+    <string name="setting_lockscreen_background">Applying background</string>
+
+    <!--Lockscreen see through-->
+    <string name="see_through_title">See through</string>
+    <string name="see_through_summary">Shows the content behind your lock screen, your data may be visible to those around you</string>
+    <string name="blur_radius_title">Blur radius</string>
+    <string name="blur_radius_summary">Set lock screen blur intensity effect</string>
+
+    <!-- Lockscreen interface -->
+    <string name="lockscreen_title">Lock screen</string>
+
+    <!--Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct pin/password is entered</string>
+
     <!-- Volume adjust sounds -->
     <string name="volume_adjust_sounds_enable_summary">Play sound while adjusting the volume</string>
 
@@ -108,49 +139,14 @@
     <string name="link_volume_ringtones">Link ringtone &amp; notifications volumes</string>
     <string name="volume_ring_only_description">Ringtone</string>
 
-    <!-- Generic strings -->
-    <string name="ok_string">Ok</string>
-    <string name="default_string">Default</string>
-    <string name="enabled_string">Enabled</string>
-    <string name="disabled_string">Disabled</string>
-    <string name="general_string">General</string>
-    <string name="reset_string">Reset</string>
-    <string name="reset">Reset</string>
-    <string name="empty_string">Empty</string>
-     <string name="ok">Ok</string>
-
-    <!-- Add application dialog box title -->
-    <string name="profile_choose_app">Choose app</string>
-
-    <!-- Profiles settings -->
-    <string name="profiles_settings_title">Profiles</string>
-    <string name="profiles_general_title">General</string>
-    <string name="profiles_add">Add</string>
-    <string name="profile_menu_delete">Delete</string>
-    <string name="profile_settings_title">Profile</string>
-    <string name="profile_empty_list_profiles_off">To configure and use system profiles, turn profiles on.</string>
-
-    <!-- Add Profile -->
-    <string name="add_profile_dialog_title">Create new profile</string>
-    <string name="profile_name_title">Name</string>
-    <string name="profile_profile_name_prompt">Enter a name for the new profile</string>
-    <string name="menu_new_profile">New profile</string>
-    <string name="menu_new_profile_summary">Add and configure a new profile</string>
-    <string name="new_profile_name">\u003Cnew profile\u003E</string>
-
-    <!-- Navigation bar -->
-    <string name="navigation_bar_title">Navigation bar</string>
-    <string name="navigation_bar_summary">Enable or disable the navigation bar</string>
-    <string name="navigation_bar_height">Height:</string>
-
     <!-- Voice+ -->
     <string name="voice_plus_title">Voice+</string>
     <string name="voice_plus_summary">Enable all apps to send SMS messages through Google Voice</string>
 
-   <!-- Volume rocker behaviours -->
+    <!-- Volume rocker behaviours -->
     <string name="volume_rocker_category_title">Volume rocker</string>
     
-     <!--- Volume key cursor control -->
+    <!--- Volume key cursor control -->
     <string name="volume_key_cursor_control_title">Volume key cursor control</string>
     <string name="volume_key_cursor_control_off">Disabled</string>
     <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
@@ -189,16 +185,6 @@
     <string name="lockscreen_wallpaper_settings_title">Lockscreen Wallpapers</string>
     <string name="bootanim_settings_title">Boot Animations</string>
     <string name="soundpack_settings_title">Sound Packs</string> 
-
-    <!-- Lockscreen background -->
-    <string name="lock_screen_title">Lock screen</string>
-    <string name="lockscreen_background">Background</string>
-    <string name="lockscreen_background_style_title">Lock screen background</string>
-    <string name="background_default">Default background</string>
-    <string name="background_wallpaper">Custom wallpaper</string>
-    <string name="background_result_successful">Background changed</string>
-    <string name="background_result_not_successful">Background not changed</string>
-    <string name="setting_lockscreen_background">Applying background</string>
 
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">Automatic brightness</string>
@@ -257,7 +243,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="auto_brightness_sensitivity_high">High</string>
     <string name="auto_brightness_sensitivity_veryhigh">Very high</string>
 
-     <!-- Smooth Progessbar -->
+    <!-- Smooth Progessbar -->
     <string name="progressbar_title">Progress bar</string>
     <string name="progressbar_mirror_title">Mirror Mode</string>
     <string name="progressbar_reverse_title">Reversed</string>
@@ -269,7 +255,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="progressbar_color_2_title">Color2</string>
     <string name="progressbar_color_3_title">Color3</string>
     <string name="progressbar_color_4_title">Color4</string>
-    <string name="sample_progressbar_text">ProgressBar : Preview</string>
+    <string name="sample_progressbar_text">Progressbar : preview</string>
     <string name="progressbar_interpolator">Interpolator</string>
     <string name="progressbar_none">None</string>
     <string name="progressbar_acclerate">Accelerate</string>
@@ -294,7 +280,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="status_bar_title">Status bar</string>
     <string name="status_bar_style_title">Style</string>
 
-    <!-- Status bar Clock -->
+    <!-- Status bar clock -->
     <string name="status_bar_clock">Clock &amp; date</string>
     <string name="status_bar_clock_title">Clock and date style</string>
     <string name="status_bar_clock_summary">Change clock and date settings</string>
@@ -383,6 +369,40 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="pulse_speed_slow">Slow</string>
     <string name="pulse_speed_very_slow">Very slow</string>
 
+    <!-- Generic strings -->
+    <string name="ok_string">Ok</string>
+    <string name="default_string">Default</string>
+    <string name="enabled_string">Enabled</string>
+    <string name="disabled_string">Disabled</string>
+    <string name="general_string">General</string>
+    <string name="reset_string">Reset</string>
+    <string name="reset">Reset</string>
+    <string name="empty_string">Empty</string>
+     <string name="ok">Ok</string>
+
+    <!-- Add application dialog box title -->
+    <string name="profile_choose_app">Choose app</string>
+
+    <!-- Profiles settings -->
+    <string name="profiles_settings_title">Profiles</string>
+    <string name="profiles_general_title">General</string>
+    <string name="profiles_add">Add</string>
+    <string name="profile_menu_delete">Delete</string>
+    <string name="profile_settings_title">Profile</string>
+    <string name="profile_empty_list_profiles_off">To configure and use system profiles, turn profiles on.</string>
+
+    <!-- Add Profile -->
+    <string name="add_profile_dialog_title">Create new profile</string>
+    <string name="profile_name_title">Name</string>
+    <string name="profile_profile_name_prompt">Enter a name for the new profile</string>
+    <string name="menu_new_profile">New profile</string>
+    <string name="menu_new_profile_summary">Add and configure a new profile</string>
+    <string name="new_profile_name">\u003Cnew profile\u003E</string>
+
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">Reset</string>
+    <string name="profile_reset_message">Delete all user created profiles and app groups and restore them to default?</string>
+
     <!-- Battery light settings -->
     <string name="battery_light_title">Battery light</string>
     <string name="battery_low_pulse_title">Pulse if battery low</string>
@@ -390,12 +410,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="battery_light_low_color_title">Battery low</string>
     <string name="battery_light_medium_color_title">Medium charge</string>
     <string name="battery_light_full_color_title">Fully charged</string>
-
-    <!-- Advanced options title -->
-    <string name="advanced_title">Advanced</string>
-     
-    <!-- Lockscreen interface -->
-    <string name="lockscreen_title">Lock screen</string>
 
     <!--Notification category-->
     <string name="notification_category">Notifications</string>
@@ -418,17 +432,13 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!--Blacklist-->
     <string name="blacklist_button_title">Blacklist</string>
-    <string name="peek_blacklist_label">Blacklist from Peek</string>
-    <string name="floating_blacklist_label">Blacklist from Floating Mode</string>
-    <string name="hover_blacklist_label">Blacklist from Hover</string>
+    <string name="peek_blacklist_label">Blacklist from peek</string>
+    <string name="floating_blacklist_label">Blacklist from floating mode</string>
+    <string name="hover_blacklist_label">Blacklist from hover</string>
 
     <!-- Whether to display the IME switcher notifcation -->
     <string name="ime_switcher_notify">Selector notification</string>
     <string name="ime_switcher_notify_summary">Display input method selector notification</string>
-
-    <!--Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 
     <!-- Protected apps -->
     <string name="menu_hidden_apps_delete">Reset</string>
@@ -448,12 +458,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">Show notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
-
-    <!--Lockscreen see through-->
-    <string name="see_through_title">See through</string>
-    <string name="see_through_summary">Shows the content behind your lock screen, your data may be visible to those around you</string>
-    <string name="blur_radius_title">Blur radius</string>
-    <string name="blur_radius_summary">Set lock screen blur intensity effect</string>
 
     <!-- Basic numbers -->
     <string name="two">Two</string>
@@ -513,7 +517,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
             sound an alarm</string>
     <string name="quiet_hours_call_bypass_title">Incoming call bypass</string>
     <string name="quiet_hours_calls_required_title">Number of calls in 30 minutes</string>
-    <string name="quiet_hours_calls_required_summary">" calls to bypass quiet hours"</string>
+    <string name="quiet_hours_calls_required_summary">" Calls to bypass quiet hours"</string>
     <string name="quiet_hours_bypass_ringtone_title">Ringtone to play</string>
     <string name="quiet_hours_bypass_ringtone_loop_title">Ringtone loop</string>
     <string name="quiet_hours_bypass_ringtone_loop_summary_on">Ringtone will loop until dismissed</string>
@@ -521,7 +525,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="quiet_hours_alarm_dismiss">Dismiss Alarm</string>
     <string name="quiet_hours_alarm_and">" and "</string>
     <string name="quiet_hours_alarm_dialog_title">QUIETHOURS BYPASSED</string>
-    <string name="quiet_hours_alarm_message">" met the requirements to bypass Quiet Hours!"</string>
+    <string name="quiet_hours_alarm_message">" You have met the requirements to bypass quiet hours!"</string>
 
     <!-- Time range preference -->
     <string name="start_time_title">Start</string>
@@ -565,22 +569,16 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Sound settings, charging sounds label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">Silent</string>
 
-    <!-- Setting checkbox title for root access -->
-    <string name="root_access">Root access</string>
-    <string name="root_access_warning_title">Allow root access?</string>
-    <string name="root_access_warning_message">Allowing applications to request root access is very dangerous and could compromise the security of your system!</string>
-    <string name="root_access_none">Disabled</string>
-    <string name="root_access_apps">Apps only</string>
-    <string name="root_access_adb">ADB only</string>
-    <string name="root_access_all">Apps and ADB</string>
+    <!-- Advanced options title -->
+    <string name="advanced_title">Advanced</string>
 
     <!-- Quickboot -->
     <!-- Title of checkbox setting that enable quickboot. [CHAR LIMIT=32] -->
     <string name="enable_quickboot_title">Enable QuickBoot mode</string>
     <!-- Summary of checkbox setting that enable quickboot. [CHAR LIMIT=64] -->
-    <string name="enable_quickboot_summary">Put device into QuickBoot mode instead of normal power off.</string>
+    <string name="enable_quickboot_summary">Put device into QuickBoot mode instead of normal power off</string>
 
-    <!--AppOps-->
+    <!--App ops-->
     <string name="appops_settings_title">App ops</string>
 
     <!--User preferences settings-->
