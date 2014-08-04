@@ -70,58 +70,58 @@
     <string name="icon_picker_pack_title">Icon pack</string>
 
     <!-- Lock Screen shortcuts -->
-    <string name="lockscreen_target_info">Drag the slider to targets to assign shortcuts</string>
-    <string name="lockscreen_target_title">Slider shortcuts</string>
-    <string name="lockscreen_target_summary">View or change custom lock screen shortcuts</string>
-    <string name="lockscreen_target_reset">Lock screen shortcuts reset to default</string>
-    <string name="lockscreen_target_reset_title">Reset</string>
-    <string name="lockscreen_target_reset_message">Delete all user created lock screen shortcuts and restore to default?</string>
-    <string name="lockscreen_target_empty">Empty</string>
-    <string name="lockscreen_target_edit_title">Edit shortcut and icon</string>
-    <string name="lockscreen_target_edit_msg">Select or change the desired application or activity and the associated icon</string>
+    <string name="lockscreen_target_info">Trascina il cursore e imposta le scorciatoie</string>
+    <string name="lockscreen_target_title">Scorciatoie di sblocco</string>
+    <string name="lockscreen_target_summary">Visualizza o modifica le scorciatoie di sblocco dello schermo</string>
+    <string name="lockscreen_target_reset">Ripristina collegamenti schermata di sblocco</string>
+    <string name="lockscreen_target_reset_title">Ripristina</string>
+    <string name="lockscreen_target_reset_message">Eliminare collegamenti personalizzati e ripristinare i predefiniti?</string>
+    <string name="lockscreen_target_empty">Vuoto</string>
+    <string name="lockscreen_target_edit_title">Modifica collegamento e icona</string>
+    <string name="lockscreen_target_edit_msg">Seleziona o modifica l\'applicazione o l\'attività e l\'icona associata</string>
 
     <!-- Title for application group setting screen -->
     <string name="profile_applist_title">Apps</string>
     <!-- UI debug setting: title for app picker dialog [CHAR LIMIT=50] -->
 
     <!-- Lock screen shortcuts -->
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
-    <string name="icon_picker_choose_icon_title">Choose icon</string>
-    <string name="icon_picker_alarm">Alarm</string>
+    <string name="picker_activities">Attività</string>
+    <string name="select_custom_app_title">Seleziona app personalizzata</string>
+    <string name="select_custom_activity_title">Seleziona attività personalizzata</string>
+    <string name="icon_picker_choose_icon_title">Scegli icona</string>
+    <string name="icon_picker_alarm">Allarme</string>
     <string name="icon_picker_browser">Browser</string>
-    <string name="icon_picker_calendar">Calendar</string>
-    <string name="icon_picker_camera">Camera</string>
+    <string name="icon_picker_calendar">Calendario</string>
+    <string name="icon_picker_camera">Fotocamera</string>
     <string name="icon_picker_chrome">Chrome</string>
-    <string name="icon_picker_contacts">Contacts</string>
+    <string name="icon_picker_contacts">Contatti</string>
     <string name="icon_picker_email">Email</string>
     <string name="icon_picker_email2">Email Holo</string>
     <string name="icon_picker_facebook">Facebook</string>
-    <string name="icon_picker_gallery">Gallery</string>
-    <string name="icon_picker_google_small">Google (small)</string>
-    <string name="icon_picker_googleplus">Google Plus</string>
-    <string name="icon_picker_googletalk">Hangouts</string>
-    <string name="icon_picker_maps">Maps</string>
-    <string name="icon_picker_movie">Movie</string>
-    <string name="icon_picker_music">Music</string>
-    <string name="icon_picker_nav_normal">Navigation</string>
-    <string name="icon_picker_phone">Phone</string>
+    <string name="icon_picker_gallery">Galleria</string>
+    <string name="icon_picker_google_small">Google (piccolo)</string>
+    <string name="icon_picker_googleplus">Google+</string>
+    <string name="icon_picker_googletalk">Hangout</string>
+    <string name="icon_picker_maps">Mappe</string>
+    <string name="icon_picker_movie">Film</string>
+    <string name="icon_picker_music">Musica</string>
+    <string name="icon_picker_nav_normal">Navigazione</string>
+    <string name="icon_picker_phone">Telefono</string>
     <string name="icon_picker_podcast">Podcast</string>
-    <string name="icon_picker_rss">Rss</string>
-    <string name="icon_picker_search">Search</string>
-    <string name="icon_picker_sms">Messaging</string>
+    <string name="icon_picker_rss">RSS</string>
+    <string name="icon_picker_search">Cerca</string>
+    <string name="icon_picker_sms">Messaggi</string>
     <string name="icon_picker_twitter">Twitter</string>
 
     <!-- Lockscreen background -->
-    <string name="lock_screen_title">Lock screen</string>
-    <string name="lockscreen_background">Background</string>
-    <string name="lockscreen_background_style_title">Lock screen background</string>
-    <string name="background_default">Default background</string>
-    <string name="background_wallpaper">Custom wallpaper</string>
-    <string name="background_result_successful">Background changed</string>
-    <string name="background_result_not_successful">Background not changed</string>
-    <string name="setting_lockscreen_background">Applying background</string>
+    <string name="lock_screen_title">Schermata di sblocco</string>
+    <string name="lockscreen_background">Sfondo</string>
+    <string name="lockscreen_background_style_title">Sfondo schermata sblocco</string>
+    <string name="background_default">Sfondo predefinito</string>
+    <string name="background_wallpaper">Immagine personalizzata</string>
+    <string name="background_result_successful">Sfondo cambiato</string>
+    <string name="background_result_not_successful">Sfondo non cambiato</string>
+    <string name="setting_lockscreen_background">Applicando lo sfondo</string>
 
     <!--Lockscreen see through-->
     <string name="see_through_title">See through</string>
@@ -130,7 +130,7 @@
     <string name="blur_radius_summary">Set lock screen blur intensity effect</string>
 
     <!-- Lockscreen interface -->
-    <string name="lockscreen_title">Lock screen</string>
+    <string name="lockscreen_title">Schermata di sblocco</string>
     
     <!-- Lockscreen battery ring -->
     <string name="battery_around_lockscreen_ring">Battery around unlock ring</string>
